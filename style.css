@@ -1,53 +1,23 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background: #bdb8b8;
-    color: #333;
-    text-align: center;
-    padding: 40px 20px;
-}
-
 .container {
-    max-width: 800px;
-    margin: auto;
-    background: white;
-    padding: 30px;
-    border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
-
 h1 {
-    color: #e95c5c;
+    color: #333;
+    font-size: 2.5em;
     margin-bottom: 20px;
 }
-
 p {
-    line-height: 1.6;
-    margin: 15px 0;
+    color: #666;
+    font-size: 1.2em;
+    line-height: 1.5;
 }
-
 img {
+    display: block;
+    margin: 20px auto;
+
     max-width: 100%;
-    height: auto;
-    margin: 20px 0;
-}
+    height: auto;}
 
-.logo {
-    width: 200px;
-}
 
-.rails-image {
-    width: 350px;
-    border-radius: 10px;
-}
-
-footer {
-    margin-top: 20px;
-    color: #4b4949;
-    font-size: 14px;
-}
